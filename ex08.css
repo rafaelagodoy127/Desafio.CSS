@@ -1,0 +1,53 @@
+.habitat {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr); 
+    grid-template-rows: repeat(2, 1fr);    
+    gap: 150px;                             
+}
+
+.oddish {
+    padding: 15px;
+    border: 2px dashed black;
+    grid-row: span 2;
+    height: 100;
+}
+
+.oddish img {
+    width: 60px;
+    height: 80px;
+}
+
+.oddish:hover{
+    background-color: rgb(60, 151, 51)
+}
+.vileplume {
+    padding: 15px;
+    border: 2px dashed black;
+}
+
+.vileplume img {
+    width: 60px;
+    height: 65px;
+}
+
+.vileplume:hover{
+    background-color: rgb(175, 73, 112)
+}
+
+.gloom{
+    padding: 15px;
+    border: 2px dashed black;
+}
+
+.glomm img {
+    width: 60px;
+    height: 65px;
+}
+
+.gloom:hover{
+    background-color: rgb(175, 109, 9);
+}
+
+*{
+    zoom: 1.2;
+}

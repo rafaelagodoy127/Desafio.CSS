@@ -1,0 +1,55 @@
+.box {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: flex-start;
+    flex-wrap: nowrap;
+    gap: 16px;
+    min-height: 57vh;
+}
+
+.gengar {
+    padding: 15px;
+    border: 2px dashed black;
+    align-self: flex-end;
+}
+
+.gengar img {
+    width: 50px;
+    height: 70px;
+}
+
+.gengar:hover{
+    background-color: rgb(133, 133, 206)
+}
+.alakazam {
+    padding: 15px;
+    border: 2px dashed black;
+}
+
+.alakazam img {
+    width: 80px;
+    height: 60px;
+}
+
+.alakazam:hover{
+    background-color: yellow
+}
+
+.haunter{
+    padding: 15px;
+    border: 2px dashed black;
+}
+
+.haunter img {
+    width: 50px;
+    height: 60px;
+}
+
+.haunter:hover{
+    background-color: rgb(153, 153, 197);
+}
+
+*{
+    zoom: 1.2;
+}

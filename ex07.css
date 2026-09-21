@@ -1,0 +1,66 @@
+.habitat {
+    display: grid;
+    grid-template-columns: repeat(1fr, 1fr);
+    grid-template-rows: repeat(2, 1fr);
+    gap: 170px;
+}
+
+.snorlax {
+    padding: 15px;
+    border: 2px dashed black;
+    grid-column: 1/3;
+    width: 100;
+}
+
+.snorlax img {
+    width: 60px;
+    height: 80px;
+}
+
+.snorlax:hover{
+    background-color: rgb(51, 94, 107)
+}
+.diglett {
+    padding: 15px;
+    border: 2px dashed black;
+}
+
+.diglett img {
+    width: 60px;
+    height: 65px;
+}
+
+.diglett:hover{
+    background-color: rgb(197, 137, 81)
+}
+
+.zubat{
+    padding: 15px;
+    border: 2px dashed black;
+}
+
+.zubat img {
+    width: 60px;
+    height: 65px;
+}
+
+.zubat:hover{
+    background-color: rgb(9, 114, 175);
+}
+.ekans{
+    padding: 15px;
+    border: 2px dashed black;
+}
+
+.ekans img {
+    width: 60px;
+    height: 65px;
+}
+
+.ekans:hover{
+    background-color: plum;
+}
+
+*{
+    zoom: 1.2;
+}

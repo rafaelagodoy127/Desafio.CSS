@@ -1,0 +1,56 @@
+.habitat {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr); 
+    gap: 16px;
+}
+
+.articuno {
+    padding: 15px;
+    border: 2px dashed black;
+    grid-row: 1;
+    grid-column: 1;
+}
+
+.articuno img {
+    width: 70px;
+    height: 70px;
+}
+
+.articuno:hover{
+    background-color: rgb(96, 167, 214)
+}
+.zapdos {
+    padding: 25px;
+    border: 2px dashed black;
+    grid-row: 2;
+    grid-column: 2;
+}
+
+.zapdos img {
+    width: 60px;
+    height: 65px;
+}
+
+.zapdos:hover{
+    background-color: rgb(223, 189, 98)
+}
+
+.moltres{
+    padding: 15px;
+    border: 2px dashed black;
+     grid-row: 3;
+    grid-column: 3;
+}
+
+.moltres img {
+    width: 60px;
+    height: 65px;
+}
+
+.moltres:hover{
+    background-color: rgb(219, 88, 12);
+}
+
+*{
+    zoom: 1.2;
+}

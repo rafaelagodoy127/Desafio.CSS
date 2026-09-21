@@ -1,0 +1,84 @@
+.habitat {
+    display: grid;
+    grid-template-columns: repeat(1fr, 1fr);
+    grid-template-rows: repeat(2, 1fr);
+    gap: 150px;
+}
+
+.pidgey {
+    grid-column: 1 / 2;
+    grid-row: 1 / 2;
+}
+
+.spearow {
+    grid-column: 1 / 2;
+    grid-row: 2 / 3;
+}
+
+.rattata {
+    grid-column: 2 / 3;
+    grid-row: 1 / 2;
+}
+.ekans {
+    grid-column: 2 / 3;
+    grid-row: 2/ 3;
+}
+
+
+.rattata {
+    padding: 15px;
+    border: 2px dashed black;
+}
+
+.rattata img {
+    width: 60px;
+    height: 80px;
+}
+
+.rattata:hover{
+    background-color: rgb(153, 108, 153)
+}
+.spearow {
+    padding: 15px;
+    border: 2px dashed black;
+}
+
+.spearow img {
+    width: 60px;
+    height: 65px;
+}
+
+.spearow:hover{
+    background-color: rgb(163, 106, 53)
+}
+
+.pidgey{
+    padding: 15px;
+    border: 2px dashed black;
+}
+
+.pidgey img {
+    width: 60px;
+    height: 65px;
+}
+
+.pidgey:hover{
+    background-color: burlywood;
+}
+.ekans{
+    padding: 15px;
+    border: 2px dashed black;
+}
+
+.ekans img {
+    width: 60px;
+    height: 65px;
+}
+
+.ekans:hover{
+    background-color: plum;
+}
+
+*{
+    zoom: 1.2;
+}

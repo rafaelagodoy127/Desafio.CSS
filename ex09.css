@@ -1,0 +1,73 @@
+.habitat {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr); 
+    gap: 16px;
+}
+
+.sentret {
+    padding: 15px;
+    border: 2px dashed black;
+}
+
+.sentret img {
+    width: 70px;
+    height: 70px;
+}
+
+.sentret:hover{
+    background-color: rgb(228, 115, 158)
+}
+.ladyba {
+    padding: 25px;
+    border: 2px dashed black;
+}
+
+.ladyba img {
+    width: 60px;
+    height: 65px;
+}
+
+.ladyba:hover{
+    background-color: rgb(243, 137, 76)
+}
+
+.hoothoot{
+    padding: 15px;
+    border: 2px dashed black;
+}
+
+.hoothoot img {
+    width: 60px;
+    height: 65px;
+}
+
+.hoothoot:hover{
+    background-color: rgb(180, 139, 77);
+}
+
+.spinarak{
+    padding: 15px;
+    border: 2px dashed black;
+}
+
+.spinarak img {
+    width: 60px;
+    height: 60px;
+}
+
+.spinarak:hover{
+    background-color: rgb(129, 201, 145);
+}
+
+*{
+    zoom: 1.2;
+}
+.sentret,
+.ledyba {
+    justify-self: center;
+}
+
+.hoothoot,
+.spinarak {
+    justify-self: end;
+}
